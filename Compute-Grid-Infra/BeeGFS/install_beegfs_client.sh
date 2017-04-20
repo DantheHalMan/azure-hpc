@@ -86,5 +86,6 @@ tune_tcp
 touch $SETUP_MARKER
 
 #shutdown -r +1 &
+service beegfs-client restart
 exit 0
 
