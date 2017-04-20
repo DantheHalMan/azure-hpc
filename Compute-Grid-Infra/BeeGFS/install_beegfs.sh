@@ -356,5 +356,6 @@ install_beegfs
 # Create marker file so we know we're configured
 touch $SETUP_MARKER
 
-shutdown -r +1 &
+#delay reboot until after other scripts have been completed.
+#shutdown -r +1 &
 exit 0
