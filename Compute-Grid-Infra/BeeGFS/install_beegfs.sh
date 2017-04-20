@@ -358,4 +358,5 @@ touch $SETUP_MARKER
 
 #delay reboot until after other scripts have been completed.
 #shutdown -r +1 &
+service beegfs-client restart
 exit 0
